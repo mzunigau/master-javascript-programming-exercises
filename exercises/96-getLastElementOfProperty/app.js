@@ -1,9 +1,7 @@
 // Write your function here
 function getLastElementOfProperty(ob, ky){
-    let tam = ob[ky].length;
-    
-    
-    return   ob[ky][]  -1
+    let arr = ob[ky];    
+    return arr[arr.length-1];
 }
 
 var obj = {

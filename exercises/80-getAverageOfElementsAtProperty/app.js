@@ -9,13 +9,9 @@ function getAverageOfElementsAtProperty(obj, key){
         for (let index = 0; index < array.length; index++) {
             ave=array[index]+ave;
         }
-        return ave / array.length; 
-               
+        return ave / array.length;                
    }
-
-
 }
-
 
 var obj = {
   key: [1, 2, 3]

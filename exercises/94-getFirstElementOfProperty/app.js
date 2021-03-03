@@ -1,17 +1,18 @@
 // Write your function here
 function getFirstElementOfProperty(obj, key){
     var arr = obj[key];
-    console.log(arr.length);
-
-   if(arr.length > 0){
+    
+   if(arr.length === 0){
        return undefined;
-   }
-   /*if(Array.isArray(obj[key])===false){
+   }else
+   if(Array.isArray(obj[key])===false){
        return undefined;
-   }
+   }else
    if(obj.hasOwnProperty(key)===false){
         return undefined;
-   }*/
+   }
+
+   return arr[0];
 }
 
 var obj = {
